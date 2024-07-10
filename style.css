@@ -1,0 +1,35 @@
+/* atomic classes */
+.pink-20 {color: rgba(255, 192, 203, 0.2);}
+.pink-40 {color: rgba(255, 192, 203, 0.4);}
+.pink-60 {color: rgba(255, 192, 203, 0.6);}
+.pink-80 {color: rgba(255, 192, 203, 0.8);}
+.pink-100 {color: rgba(255, 192, 203, 1.0);}
+
+.bg-fixed {background-attachment: fixed;}
+
+.line-through {text-decoration: line-through;}
+
+.box-border {box-sizing: border-box;}
+
+.invisible {visibility: hidden;}
+.hidden {display: none;}
+
+.text-center {text-align: center;}
+
+/* custom classes */
+pre > .code {
+  font-size: 18px;
+  font-family: 'Modern Antiqua', cursive;
+  display: inline-block;
+  min-width: 920px;
+  padding: 8px;
+  background: #000;
+  color:#fff;
+}
+
+a[href^=tel]::before {
+  content: "|";
+  padding: 0 12px;
+  color: #000;;
+}
+
