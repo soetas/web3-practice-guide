@@ -41,7 +41,23 @@ console.log(encodeURIComponent(url))
 
 [WebGL](https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API)
 
+### 浏览器安全策略
+
+- 同源策略(Same-Origin Policy)
+
+> JSONP(JSON with Padding)
+
+HTTP请求: 简单请求和复杂请求
+
+预检请求(OPTIONS)的请求头:
+
+- `Origin`
+- `Access-Control-Request-Headers`
+- `Access-Control-Request-Method`
+
 ## web3.0
+
+区块链技术原理
 
 相关概念:
 

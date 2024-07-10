@@ -121,6 +121,10 @@ async function main() {
 
   document.addEventListener('contextmenu', onContextmenu)
 
+  const iframe = document.getElementsByTagName('iframe')[0]
+
+  // iframe.contentWindow.document.body
+
 }
 
 window.onload = main
