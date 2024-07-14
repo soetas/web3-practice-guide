@@ -59,6 +59,49 @@ HTTP请求: 简单请求和复杂请求
 - `Access-Control-Request-Headers`
 - `Access-Control-Request-Method`
 
+### 前端交互
+
+```vue
+<script src="./script.js">
+<template src="./template.html">
+<style src="./style.css">  
+
+```
+
+[esm.sh](https://esm.sh/)
+
+同一SFC文件内定义多个组件的解决方案:
+
+1. [named template](https://vue-macros.dev/zh-CN/features/named-template.html)
+2. [createReusableTemplate](https://vueuse.org/core/createReusableTemplate/)
+3. [vite-plugin-vue-nested-sfc](https://github.com/hunyan-io/vite-plugin-vue-nested-sfc)
+
+前端渲染方案的演进: CSR -> SSR -> NSR -> ESR
+
+SSR: 1) 流式SSR渲染  2) 渐进式SSR渲染
+
+```sh
+npm config get cache
+npm config set init-module ~/.npm-init.js
+
+npm config set init.author.name "soetas"
+npm config set init.author.email "3228891558@qq.com"
+npm config set init.license "MIT"
+
+npm link
+
+```
+
+部署npm私服:
+
+1. [verdaccio](https://verdaccio.org/)
+2. [sinopia](https://github.com/rlidwka/sinopia)
+3. [nexus](https://www.sonatype.com/products/sonatype-nexus-oss)
+
+### Ajax
+
+### Serverless
+
 ## web3.0
 
 ### 密码学
